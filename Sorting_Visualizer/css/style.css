@@ -1,0 +1,141 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #2c2c2c;
+  color: yellow;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 15px 5%;
+  align-items: center;
+}
+
+/* Array Input Controls */
+nav .array-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+nav .array-inputs input {
+  width: 100%;
+  cursor: pointer;
+}
+
+nav .array-inputs button {
+  background-color: yellow;
+  color: black;
+  padding: 8px 12px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+nav .array-inputs button:hover {
+  background-color: #ffc107;
+  cursor: pointer;
+}
+
+/* Header Right Section */
+nav .header_right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Sorting Algorithm Buttons */
+nav .header_right .algos {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+nav .header_right .algos button {
+  background-color: #444;
+  color: yellow;
+  border: 2px solid yellow;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+nav .header_right .algos button:hover {
+  background-color: yellow;
+  color: black;
+}
+
+nav .header_right .algos .butt_selected {
+  background-color: white;
+  color: green;
+}
+
+/* Main Section */
+section {
+  display: grid;
+  grid-template-columns: 20% 60% 20%;
+  padding: 20px;
+  gap: 20px;
+  align-items: center;
+}
+
+/* Array Container */
+#array_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+  height: 70vh;
+  background-color: #222;
+  border-radius: 8px;
+}
+
+/* Complexity Information */
+#Info_Cont1, #Info_Cont2 {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+#Info_Cont1 h3, #Info_Cont2 h3 {
+  text-decoration: underline;
+}
+
+.Complexity_Containers .Pair_Definitions {
+  margin-top: 15px;
+}
+
+.Complexity_Containers .Pair_Definitions p {
+  display: inline;
+}
+
+.Complexity_Containers .Pair_Definitions p.Sub_Heading {
+  font-size: medium;
+  text-transform: none;
+}
+
+/* Footer */
+footer {
+  margin-top: 20px;
+  text-align: center;
+  padding: 15px;
+  background-color: #2c2c2c;
+  color: yellow;
+}
+
+/* Hidden Elements */
+.hide {
+  display: none;
+}
